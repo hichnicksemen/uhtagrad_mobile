@@ -42,7 +42,7 @@
 <body>    
   
     <ons-sliding-menu
-    menu-page="menu.html" main-page="feed-categories.html" side="left"
+    menu-page="menu.html" main-page="feed-categorie.html" side="left"
     var="menu" type="reveal" max-slide-distance="260px" swipable="true">
     </ons-sliding-menu>
 

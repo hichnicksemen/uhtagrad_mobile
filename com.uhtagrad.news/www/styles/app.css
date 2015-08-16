@@ -92,9 +92,9 @@ background-color: #333; text-shadow: rgba(0, 0, 0, 1) 0px 1px 0px; }
 
 .profile-name { margin: 20px 0 0 0; font-weight: 600; font-size: 17px; }
 
-.profile-id { margin: 0 0 5px 0; font-size: 14px; opacity: 0.6; }
+.profile-id { margin: 0 0 5px 0; font-size: 14px; opacity: 1; }
 
-.profile-desc { font-size: 15px; opacity: 0.6; width: 90%; text-align: center; margin: 0 auto; }
+.profile-desc { font-size: 15px; opacity: 1; width: 90%; text-align: center; margin: 0 auto; }
 
 /* Thumbnail */
 .thumbnail-container, .thumbnail { width: 80px; height: 80px; border-radius: 4px; -webkit-border-radius: 4px; background:#cccccc; }

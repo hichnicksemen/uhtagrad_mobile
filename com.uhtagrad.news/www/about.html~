@@ -5,18 +5,18 @@
         <ons-icon icon="ion-navicon" size="28px" fixed-width="false"></ons-icon>
       </ons-toolbar-button>
     </div>
-    <div class="center">About</div>
+    <div class="center">О нас</div>
   </ons-toolbar>
     
     <section style="padding:10px;">
-    Sensation Feed 1.1.0.<br/>
-    Get Feeds with the Google Feed API.
+    Uhtagrad News v1.1.0.<br/>
+    Разработка приложения <a href="http://webproject.pro" target=_blank>webproject</a>
     </section>
 
     <ons-row>
     <ons-col align="center">
     <ons-button modifier="light" ng-click="menu.toggleMenu()">
-    Toggle Menu
+    Меню
     </ons-button>
     </ons-col>
     </ons-row>

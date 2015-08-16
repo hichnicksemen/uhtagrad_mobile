@@ -8,73 +8,73 @@
     "id": 1,
     "title": "Видеоновости",
     "description": "",
-    "url": "" 
+    "url": "http://www.uhtagrad.ru/feed.rss?blogs=videonovosti" 
     },
     {
     "id": 2,
     "title": "Политика",
     "description": "",
-    "url": "" 
+    "url": "http://www.uhtagrad.ru/feed.rss?blogs=politika" 
     },
     {
     "id": 3,
     "title": "Экономика",
     "description": "",
-    "url": "" 
+    "url": "http://www.uhtagrad.ru/feed.rss?blogs=ekonomika" 
     },
     {
     "id": 4,
     "title": "Общество",
     "description": "",
-    "url": "" 
+    "url": "http://www.uhtagrad.ru/feed.rss?blogs=obshhestvo" 
     },
     {
     "id": 5,
     "title": "Здоровье",
     "description": "",
-    "url": "" 
+    "url": "http://www.uhtagrad.ru/feed.rss?blogs=zdorove" 
     },
     {
     "id": 6,
     "title": "Образование",
     "description": "",
-    "url": "" 
+    "url": "http://www.uhtagrad.ru/feed.rss?blogs=obrazovanie" 
     },
     {
     "id": 7,
     "title": "Культура",
     "description": "",
-    "url": "" 
+    "url": "http://www.uhtagrad.ru/feed.rss?blogs=kultura" 
     },
     {
     "id": 8,
     "title": "Авто",
     "description": "",
-    "url": "" 
+    "url": "http://www.uhtagrad.ru/feed.rss?blogs=avto" 
     },
     {
     "id": 9,
     "title": "Спорт",
     "description": "",
-    "url": "" 
+    "url": "http://www.uhtagrad.ru/feed.rss?blogs=sport" 
     },
     {
     "id": 10,
     "title": "Закон",
     "description": "",
-    "url": "" 
+    "url": "http://www.uhtagrad.ru/feed.rss?blogs=zakon" 
     },
     {
     "id": 11,
     "title": "Происшествия",
     "description": "",
-    "url": "" 
+    "url": "http://www.uhtagrad.ru/feed.rss?blogs=proisshestviya" 
     },
     {
     "id": 12,
     "title": "Итоги",
     "description": "",
-    "url": "" 
+    "url": "http://www.uhtagrad.ru/feed.rss?blogs=itogovyie-novosti" 
     }
   ]
 }

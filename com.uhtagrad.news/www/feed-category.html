@@ -1,0 +1,37 @@
+<ons-navigator>
+    <ons-page ng-controller="FeedPluginCategoryController">
+        <ons-toolbar fixed-style>
+        <div class="left">
+        <ons-toolbar-button ng-click="menu.toggle()">
+        <ons-icon icon="ion-navicon" size="28px" fixed-width="false"></ons-icon>
+        </ons-toolbar-button>
+        </div>
+        <div class="center">Новости Ухты</div>
+        </ons-toolbar>
+
+
+        <div class="profile-card">
+
+            <ons-icon icon="rss" class="profile-logo"></ons-icon>
+            <div class="profile-name">Ухтаград</div>
+            <div class="profile-id">@uhtagrad</div>
+            <div class="profile-desc">Главные новости Ухты</div>
+
+        </div>
+
+        <ons-list>
+            <ons-list-item modifier="chevron" class="item" ng-repeat="item in items" ng-click="showDetail($index)">
+                <ons-row>
+                <ons-col>
+                <header>
+                <span class="item-title">{{item.title}}</span>
+                </header>
+                <p class="item-desc">{{item.description}}</p>
+                </ons-col>
+                </ons-row>                          
+            </ons-list-item>
+        </ons-list>
+
+    </ons-page>
+</ons-navigator>
+

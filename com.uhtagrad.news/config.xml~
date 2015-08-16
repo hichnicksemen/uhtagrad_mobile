@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.uhtagrad.new" version="1.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Новости Ухты</name>
+
+    <description>
+    Главные новости Ухты - сайт uhtagrad.ru
+    </description>
+    
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="webviewbounce" value="false" />
+    
+    <content src="index.html" />
+    <access origin="*" />
+</widget>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.uhtagrad.new" version="1.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Новости Ухты</name>
+
+    <description>
+    Главные новости Ухты - сайт uhtagrad.ru
+    </description>
+
+    	<gap:plugin name="org.apache.cordova.device" />
+	<gap:plugin name="org.apache.cordova.device-motion" />
+	<gap:plugin name="org.apache.cordova.device-orientation" />
+	<gap:plugin name="org.apache.cordova.dialogs" />
+	<gap:plugin name="org.apache.cordova.inappbrowser" />
+
+	<gap:plugin name="de.appplant.cordova.plugin.email-composer" />
+	<gap:plugin name="nl.x-services.plugins.socialsharing" />
+
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="webviewbounce" value="false" />
+    
+    <content src="index.html" />
+    <access origin="*" />
+</widget>

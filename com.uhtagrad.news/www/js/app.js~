@@ -81,18 +81,24 @@ var app = {
     });
     
     // Feed Plugin: Category Controller
-    module.controller('FeedPluginCategoryController', function($scope, FeedPluginData) {
+module.controller('FeedPluginCategoryController', function($scope, $http, FeedPluginData) {
 
-        $scope.title = FeedPluginData.selectedItem.title;
-        $scope.items = FeedPluginData.selectedItem.items;
-
-        $scope.showDetail = function(index) {
-        var selectedItem = $scope.items[index];
-        FeedPluginData.selectedItem = selectedItem;
-        $scope.ons.navigator.pushPage('feed-master.html', {title : selectedItem.title});
-        }
+    $http({method: 'GET', url: FeedPluginData.url}).
+    success(function(data, status, headers, config) {
+    $scope.items = data.items;
+    }).
+    error(function(data, status, headers, config) {
 
     });
+
+    $scope.showDetail = function(index) {
+    var selectedItem = $scope.items[index];
+    FeedPluginData.selectedItem = selectedItem;
+    $scope.ons.navigator.pushPage('feed-master.html', {title : selectedItem.title});
+    }
+
+});
+
     
     // Feed Plugin: Master Controller
     module.controller('FeedPluginMasterController', function($scope, $http, FeedPluginData) {

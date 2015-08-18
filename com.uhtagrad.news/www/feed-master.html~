@@ -36,7 +36,7 @@
     </ons-row>
     
     <div style="padding: 0 10px 10px 10px;">
-    <ons-button modifier="large" ng-show="hasMoreItems()" ng-click="showMoreItems()">Show more</ons-button>
+    <ons-button modifier="large" ng-show="hasMoreItems()" ng-click="showMoreItems()">Показать ещё</ons-button>
     </div>
 
 </ons-page>

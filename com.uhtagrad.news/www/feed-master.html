@@ -17,6 +17,11 @@
             <div ng-if="hasVideo(feed)"><img ng-src="{{feed.mediaGroups[0].contents[0].thumbnails[0].url}}" class="thumbnail"></img></div>
             </div>
             </ons-col>
+		
+	<ons-col ng-if="getImage($index) && !feed.mediaGroups" width="95px" >
+        <img ng-src="{{getImage($index)}}" class="thumbnail"></img>
+        </div>
+        </ons-col>
 
             <ons-col>
             <header>

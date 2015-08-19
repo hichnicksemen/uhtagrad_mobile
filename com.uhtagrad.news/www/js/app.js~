@@ -105,7 +105,7 @@ module.controller('FeedPluginCategoryController', function($scope, $http, FeedPl
         
         $scope.msg = "Загрузка...";
         $scope.feeds = "";
-
+	
         $http({method: 'JSONP', url: 'http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=50&callback=JSON_CALLBACK&q=' + encodeURIComponent(FeedPluginData.selectedItem.url)}).
         success(function(data, status, headers, config) {
             
@@ -116,7 +116,15 @@ module.controller('FeedPluginCategoryController', function($scope, $http, FeedPl
                 $scope.description = data.responseData.feed.description;
                 $scope.link = data.responseData.feed.link;
                 $scope.feeds = data.responseData.feed.entries;
-                
+
+                $scope.getImage = function(index) {
+		var selectedItem = $scope.feeds[index];
+		var content = selectedItem.content;
+		var element = $('<div>').html(content);
+		var source = element.find('img').attr("src");
+		return source;
+		}
+
                 $scope.msg = "";
             }
 

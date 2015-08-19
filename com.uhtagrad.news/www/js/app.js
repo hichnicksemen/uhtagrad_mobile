@@ -105,8 +105,9 @@ module.controller('FeedPluginCategoryController', function($scope, $http, FeedPl
         
         $scope.msg = "Загрузка...";
         $scope.feeds = "";
-	
-        $http({method: 'JSONP', url: 'http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=50&callback=JSON_CALLBACK&q=' + encodeURIComponent(FeedPluginData.selectedItem.url)}).
+	var randomNum = Math.floor((Math.random() * 10000) + 1);
+
+        $http({method: 'JSONP', url: 'http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&t=' + randomNum + '&num=50&callback=JSON_CALLBACK&q=' + encodeURIComponent(FeedPluginData.selectedItem.url)}).
         success(function(data, status, headers, config) {
             
             if (!data.responseData) {

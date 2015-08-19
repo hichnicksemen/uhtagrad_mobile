@@ -8,49 +8,49 @@
     "id": 1,
     "title": "Видеоновости",
     "description": "",
-    "url": "http://www.uhtagrad.ru/api.rss?cat=84" 
+    "url": "http://www.uhtagrad.ru/apiv2.rss?cat=84" 
     },
     {
     "id": 2,
     "title": "Политика",
     "description": "",
-    "url": "http://www.uhtagrad.ru/api.rss?cat=2" 
+    "url": "http://www.uhtagrad.ru/apiv2.rss?cat=2" 
     },
     {
     "id": 3,
     "title": "Экономика",
     "description": "",
-    "url": "http://www.uhtagrad.ru/api.rss?cat=5" 
+    "url": "http://www.uhtagrad.ru/apiv2.rss?cat=5" 
     },
     {
     "id": 4,
     "title": "Общество",
     "description": "",
-    "url": "http://www.uhtagrad.ru/api.rss?cat=15" 
+    "url": "http://www.uhtagrad.ru/apiv2.rss?cat=15" 
     },
     {
     "id": 5,
     "title": "Здоровье",
     "description": "",
-    "url": "http://www.uhtagrad.ru/api.rss?cat=16300" 
+    "url": "http://www.uhtagrad.ru/apiv2.rss?cat=16300" 
     },
     {
     "id": 6,
     "title": "Образование",
     "description": "",
-    "url": "http://www.uhtagrad.ru/api.rss?cat=1921" 
+    "url": "http://www.uhtagrad.ru/apiv2.rss?cat=1921" 
     },
     {
     "id": 7,
     "title": "Культура",
     "description": "",
-    "url": "http://www.uhtagrad.ru/api.rss?cat=16138" 
+    "url": "http://www.uhtagrad.ru/apiv2.rss?cat=16138" 
     },
     {
     "id": 8,
     "title": "Авто",
     "description": "",
-    "url": "http://www.uhtagrad.ru/api.rss?cat=33" 
+    "url": "http://www.uhtagrad.ru/apiv2.rss?cat=33" 
     },
     {
     "id": 9,
@@ -62,19 +62,19 @@
     "id": 10,
     "title": "Закон",
     "description": "",
-    "url": "http://www.uhtagrad.ru/api.rss?cat=4" 
+    "url": "http://www.uhtagrad.ru/apiv2.rss?cat=4" 
     },
     {
     "id": 11,
     "title": "Происшествия",
     "description": "",
-    "url": "http://www.uhtagrad.ru/api.rss?cat=47" 
+    "url": "http://www.uhtagrad.ru/apiv2.rss?cat=47" 
     },
     {
     "id": 12,
     "title": "Итоги",
     "description": "",
-    "url": "http://www.uhtagrad.ru/api.rss?cat=2070" 
+    "url": "http://www.uhtagrad.ru/apiv2.rss?cat=2070" 
     }
   ]
 }

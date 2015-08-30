@@ -56,7 +56,7 @@
     "id": 9,
     "title": "Спорт",
     "description": "",
-    "url": "http://www.uhtagrad.ru/api.rss?cat=32" 
+    "url": "http://www.uhtagrad.ru/apiv2.rss?cat=32" 
     },
     {
     "id": 10,

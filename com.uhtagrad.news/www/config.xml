@@ -11,7 +11,7 @@
 	<gap:plugin name="org.apache.cordova.dialogs" source="npm"/>
 	<gap:plugin name="org.apache.cordova.inappbrowser" source="npm"/>
 
-	<gap:plugin name="de.appplant.cordova.plugin.email-composer" />
+	<gap:plugin name="cordova-plugin-email-composer" version="0.8.3" source="npm" />
 	<gap:plugin name="nl.x-services.plugins.socialsharing" />
     
     <icon src="res/drawable-xxxhdpi/ic_launcher.png" />

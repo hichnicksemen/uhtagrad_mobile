@@ -25,7 +25,8 @@
 
     <preference name="DisallowOverscroll" value="true" />
     <preference name="webviewbounce" value="false" />
-    
+    <preference name="permissions" value="none"/>
+
     <content src="index.html" />
     <access origin="*" />
 </widget>
